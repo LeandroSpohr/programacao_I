@@ -1,0 +1,32 @@
+atividade 1 (guiado)
+
+Criar formulário com a seguinte estrutura...
+
+titulo (Calculadora online)
+label Valor 1
+campo numero id=valor1
+label Valor 2
+campo numero id=valor2
+input submit id=calcular e value=Calcular
+label Resultado
+input number id=resultado 
+
+criar arquivo codigo.js e construir uma função com o nome soma pegando os valores com getElementById e armazenando em variáveis os valores dos campo valor 1 e valor 2
+
+somar os valores e inserir no campo resultado
+
+
+atividade 2 (sozinhos)
+
+criar novo campo entre valor 1 e valor 2 chamado operação, tipo select (combobox) com os valores + - * /
+
+alterar função para pegar o valor e fazer o calculo corretamente de acordo com a operação selecionada.
+
+
+Atividade 3 (sozinhos) - escolher um projeto
+Cronômetro
+Lista de Tarefas
+Contador de caracteres
+Gerador de texto
+Contador de Palavras
+Mudar cor de Background
