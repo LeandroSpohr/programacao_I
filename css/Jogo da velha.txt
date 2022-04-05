@@ -1,0 +1,13 @@
+
+atividade pedra, papel, tesoura.
+3 opçẽs da tela inicial
+cada opção chama uma função que gera um numero aleatorio de 1 a 3, que será a escolha
+do computador, e compara com a opção selecionada(escolha do jogador).
+
+animações e efeitos caso ganhar e caso perder.
+
+armazenar resultado no localstorage com as seguintes chaves
+quantidade de partidas jogadas, 
+quantidade de vitórias e 
+quantidade de derrotas 
+e exibir na tela inicial.
