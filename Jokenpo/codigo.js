@@ -78,6 +78,14 @@ function atualiza() {
 }
 
 function resultado(mensagem) {
-  var labelResultado = document.getElementById("resultado");
-  labelResultado.innerHTML = mensagem; // seta o resultado
+  var btnResultado = document.getElementById("resultado");
+  btnResultado.value = mensagem; // seta o resultado
+}
+
+function mostraResultado(resultado) {
+  if (!resultado) { // '!' significa negação, ou seja, se não tiver valor no parametro resultado
+    alert('Jogue para obter um resultado!');
+    return
+  }
+  alert(resultado);
 }
