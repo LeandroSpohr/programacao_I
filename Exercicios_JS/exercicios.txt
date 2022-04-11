@@ -1,0 +1,41 @@
+1. Declare uma variavel;
+
+2. Imprima no console o tipo dessa variavel;
+
+3. Cria uma variavel para cada tipo e valor abaixo e mostre cada uma no console:
+ .uma string com o seu nome;
+ .um number com o valor sua idade;
+ .um boolean com o valor se você tem mais do que 18 anos(true) ou menos(false);
+ .um array de strings com o nome de 5 professores;
+ .um objeto com as propriedades sendo dos tipos e valores das variaveis acima;
+
+4. Crie duas variáveis do tipo number (qualquer valor) e imprima o valor da soma das duas;
+
+5. Cria uma função que receba dois parametros e imprima um boolean dizendo se o valor do primeiro parametro é igual o do segundo;
+
+6. Chame a função do item 5 passando dois valores iguais e depois dois valores diferentes;
+
+7. Criar uma função onde dentro dela criar um array com o nome de 5 professores e imprima em um alert a segunda posição do array,
+em seguida chamar a execução da função
+
+8. Criar uma função igual do item 7, porem mostrando todos os valores no console com um for.
+
+9. Criar uma pagina HTML com os campos Nome, Peso, altura e um botão com o texto enviar.
+
+10. Estilize a pagina (livre)
+
+11. Criar uma função que capture os valores dos campos do item 9 e faça o seguinte cálculo: 
+pegue o valor do campo peso e divida pelo valor do campo altura multiplicado por ele mesmo, ou seja:
+peso / (altura * altura)
+
+verifique o resultado e imprima a respectiva mensagem de acordo com as situações abaixo:
+Condição                                   Mensagem
+se o resultado estiver abaixo de 17        [valor do campo nome], você está muito abaixo do peso;
+se o resultado estiver entre 17 e 18,49    [valor do campo nome], você está abaixo do peso;
+se o resultado estiver entre 18,5 e 24,99  [valor do campo nome], você está peso normal;
+se o resultado estiver entre 25 e 29,99    [valor do campo nome], você está acima do peso;
+se o resultado estiver entre 30 e 34,99    [valor do campo nome], você está obesidade I;
+se o resultado estiver entre 35 e 39,99    [valor do campo nome], você está obesidade II;
+
+
+referencia e ajuda (ctrl + click): https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/JavaScript_basics
