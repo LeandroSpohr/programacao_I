@@ -27,6 +27,9 @@ function mostraValores() {
   var valores = localStorage.getItem(chaveProdutos); // pega os valores como string no localstorage
   valores = JSON.parse(valores); // converte a string em array
 
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '';
+
   valores.forEach((valor) => { // para cara registro no array executa o processo abaixo
     const divCard = document.createElement('div'); // cria uma div
     divCard.className = 'card col'; // insere a classe do bootstrap
