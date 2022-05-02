@@ -71,6 +71,10 @@ function cadastrar() {
   var valores = localStorage.getItem(chaveProdutos); // pega os valores como string no localstorage
   valores = JSON.parse(valores); // converte a string em array
 
+  if (!valores) {
+    valores = [];
+  }
+
   valores.push(produto);
 
   valores = JSON.stringify(valores);
