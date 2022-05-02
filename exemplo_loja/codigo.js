@@ -18,6 +18,7 @@ function cargaInicial() {
       descricao: 'Sapato esportivo'
     }
   ];
+
   valores = JSON.stringify(valores); // converte o array em string pra salvar no localstorage
   localStorage.setItem(chaveProdutos, valores); // salva o array como string no localstorage
 }
@@ -56,5 +57,27 @@ function mostraValores() {
   });
 }
 
-cargaInicial() // carrega valores iniciais no localstorage
-mostraValores() // renderiza os produtos no documento
+function cadastrar() {
+  var titulo = document.getElementById('titulo').value;
+  var descricao = document.getElementById('descricao').value;
+  var url = document.getElementById('url').value;
+
+  const produto = {
+    titulo,
+    descricao,
+    url,
+  }
+
+  var valores = localStorage.getItem(chaveProdutos); // pega os valores como string no localstorage
+  valores = JSON.parse(valores); // converte a string em array
+
+  valores.push(produto);
+
+  valores = JSON.stringify(valores);
+ 
+  localStorage.setItem(chaveProdutos, valores);
+  alert('cadastrado com sucesso!')
+}
+
+// cargaInicial() // carrega valores iniciais no localstorage
+// mostraValores() // renderiza os produtos no documento
