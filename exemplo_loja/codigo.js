@@ -83,7 +83,7 @@ function cadastrar() {
   valores = JSON.stringify(valores);
  
   localStorage.setItem(chaveProdutos, valores);
-  alert('cadastrado com sucesso!')
+  location.href="index.html"
 }
 
 // cargaInicial() // carrega valores iniciais no localstorage
